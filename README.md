@@ -1,6 +1,6 @@
 # KiraKiraHealth
 
-> SaaS アプリケーション（プロダクト概要は [docs/product/vision.md](docs/product/vision.md) を参照）
+> SaaS アプリケーション（プロダクト概要は [docs/product/vision.md](docs/product/vision.md)、届ける価値の定義は [docs/product/value-definition.md](docs/product/value-definition.md) を参照）
 
 ## リポジトリ構成
 
