@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # TODO: 技術スタック確定後に以下を置き換える
+      - name: Install dependencies
+        run: echo "TODO: install dependencies"
+
+      - name: Lint
+        run: echo "TODO: lint"
+
+      - name: Test
+        run: echo "TODO: test"
+
+      - name: Build
+        run: echo "TODO: build"
